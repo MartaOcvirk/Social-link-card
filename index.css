@@ -75,6 +75,12 @@ h3 {
     align-items: center;
     width: 110%;
     cursor: pointer;
+    text-decoration: none;
+}
+
+.link:focus {
+    outline: 1px solid hsl(75, 94%, 57%); 
+    outline-offset: 2px;
 }
 
 .socials {
