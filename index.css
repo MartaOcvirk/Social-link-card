@@ -1,0 +1,145 @@
+html {
+    height: 100%;
+}
+
+@media (min-width: 320px) {
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    width: 320px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.container img {
+    border-radius: 100px;
+    height: 130px;
+    width: 130px;
+}
+
+
+.container h1 {
+    color: white;
+    margin-bottom: 7px;
+}
+
+.container h4 {
+    color: hsl(75, 94%, 57%);
+    font-size: 13px;
+    margin-top: 7px;
+
+}
+
+.container p {
+    color: white;
+    font-size: 13px;
+    font-weight: lighter;
+    margin: 10px 0;
+}
+
+h3 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+}
+
+.link {
+    background-color: hsl(0, 0%, 20%);
+    margin-top: 10px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 7px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110%;
+    cursor: pointer;
+}
+
+.socials {
+    height: 278px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 27px;
+
+}
+
+.personalInfo {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* --- Media Queries for Responsiveness --- */
+
+/* Tablet Devices (Portrait) - 768px */
+@media (min-width: 768px) {
+    .container {
+        width: 480px; 
+        height: 600px; 
+    }
+
+    .container h1 {
+        font-size: 24px; 
+    }
+
+    .container p {
+        font-size: 16px; 
+    }
+
+    .socials {
+        height: 300px; 
+    }
+
+    .link {
+        height: 45px; 
+    }
+}
+
+/* Desktop Devices - 1024px */
+@media (min-width: 1024px) {
+    body {
+        height: 100%;
+    }
+
+    .container {
+        width: 600px; 
+        height: 700px; 
+    }
+
+    .container h1 {
+        font-size: 28px; 
+    }
+
+    .link {
+        height: 50px; 
+    }
+
+    .socials {
+        height: 350px; 
+    }
+}
